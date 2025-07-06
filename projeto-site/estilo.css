@@ -28,4 +28,11 @@ body {
     }
     li:hover {
             background-color: #e8f5e9;
+            border-radius: 4px;
+    }   
+    .javascript, .python, .node-js {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        margin-right: 6px;
     }
