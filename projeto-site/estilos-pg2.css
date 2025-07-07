@@ -20,3 +20,31 @@ header {
 .projeto-card:hover {
     transform: translateY(-5px) scale(1.02);
 }
+.projeto-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    transition: filter 0.2s;
+}
+.projeto-card img:hover {
+    filter: brightness(0.95) blur(1px);
+}.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}.btn {
+    background: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.btn:hover {
+    background: #005fa3;
+}h1 {
+    color: #0078d7;
+    letter-spacing: 2px;
+    text-align: center;
+}
